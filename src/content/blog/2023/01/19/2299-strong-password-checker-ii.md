@@ -15,7 +15,7 @@ tags:
 
 一行流
 
-```
+```rust
 struct Solution {}
 
 impl Solution {
