@@ -15,7 +15,7 @@ tags:
 
 贪心算法
 
-```
+```rust
 struct Solution {}
 
 impl Solution {
@@ -28,6 +28,4 @@ impl Solution {
     a_sum + diff.iter().fold(0, |acc, x| acc + x)
   }
 }
-
-
 ```

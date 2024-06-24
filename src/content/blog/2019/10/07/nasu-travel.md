@@ -2,11 +2,6 @@
 title: "那须高原-十一之旅"
 pubDatetime: 2019-10-07T20:49:00+08:00
 description: "那须高原-十一之旅"
-type: "post"
-categories:
-  - "Nasu"
-  - "National Day"
-  - "Travel"
 tags:
   - "travel"
 ---

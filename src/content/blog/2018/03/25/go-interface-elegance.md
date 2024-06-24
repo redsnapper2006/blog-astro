@@ -2,10 +2,6 @@
 title: "Go Interface Elegance"
 pubDatetime: 2018-03-25T21:54:00+08:00
 description: "Take {Reader, Writer, Seeker, Closer} as an example"
-type: "post"
-categories:
-  - "Go"
-  - "Interface"
 tags:
   - "tech"
 ---

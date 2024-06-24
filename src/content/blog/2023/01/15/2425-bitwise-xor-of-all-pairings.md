@@ -15,7 +15,7 @@ tags:
 
 XOR运算
 
-```
+```rust
 struct Solution {}
 
 impl Solution {

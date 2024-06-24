@@ -2,11 +2,6 @@
 title: "Thunder Shot In Flight"
 pubDatetime: 2018-09-22T21:18:00+08:00
 description: "Thunder Shot In Flight"
-type: "post"
-categories:
-  - "Thunder"
-  - "Shot"
-  - "Flight"
 tags:
   - "misc"
 ---

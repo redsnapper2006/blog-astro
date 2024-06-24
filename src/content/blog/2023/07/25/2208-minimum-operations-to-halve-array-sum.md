@@ -2,11 +2,6 @@
 title: "2208-minimum-operations-to-halve-array-sum"
 pubDatetime: 2023-07-25T13:01:00+09:00
 description: ""
-type: "post"
-categories:
-  - "leetcode"
-  - "rust"
-  - "binaryheap"
 tags:
   - "leetcode"
   - "rust"

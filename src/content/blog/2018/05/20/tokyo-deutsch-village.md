@@ -2,11 +2,6 @@
 title: "東京ドイツ村ツアー"
 pubDatetime: 2018-05-21T11:40:00+09:00
 description: "东京德国村一日游"
-type: "post"
-categories:
-  - "tokyo"
-  - "deutsch"
-  - "village"
 tags:
   - "travel"
 ---

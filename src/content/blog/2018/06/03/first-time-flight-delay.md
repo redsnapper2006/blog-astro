@@ -2,11 +2,6 @@
 title: "第一次飞机故障，临时换机"
 pubDatetime: 2018-06-03T11:18:00+08:00
 description: "First Time Flight Delayed by Defect"
-type: "post"
-categories:
-  - "Flight"
-  - "Delayed"
-  - "Defect"
 tags:
   - "travel"
 ---

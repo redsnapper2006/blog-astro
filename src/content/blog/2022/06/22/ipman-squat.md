@@ -2,10 +2,6 @@
 title: "Ip Man Squat"
 pubDatetime: 2022-06-21T21:00:00+08:00
 description: "Ip Man Squat"
-type: "post"
-categories:
-  - "Ip Man Squat"
-  - "WorkOut"
 tags:
   - "workout"
 ---

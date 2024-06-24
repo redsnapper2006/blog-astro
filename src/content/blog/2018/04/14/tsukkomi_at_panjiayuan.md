@@ -2,10 +2,6 @@
 title: "潘家园偶遇"
 pubDatetime: 2018-04-14T16:11:00+08:00
 description: "潘家园偶遇，大妈VS码农"
-type: "post"
-categories:
-  - "PianJiaYuan"
-  - "Tsukkomi"
 tags:
   - "tsukkomi"
 ---

@@ -2,13 +2,6 @@
 title: "八ヶ岳、蓼科（長野⇨山梨）巡り観光"
 pubDatetime: 2018-10-05T14:23:00+09:00
 description: "八ヶ岳、蓼科（長野⇨山梨）巡り観光"
-type: "post"
-categories:
-  - "Yatsugatake"
-  - "Tateshina"
-  - "Nagano"
-  - "Yamanashi"
-  - "Travel"
 tags:
   - "travel"
 ---

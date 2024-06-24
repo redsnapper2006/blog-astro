@@ -2,11 +2,6 @@
 title: "2330-successful-pairs-of-spells-and-potions"
 pubDatetime: 2023-11-10T10:49:00+08:00
 description: ""
-type: "post"
-categories:
-  - "leetcode"
-  - "rust"
-  - "binarysearch"
 tags:
   - "leetcode"
   - "rust"

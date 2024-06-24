@@ -2,11 +2,6 @@
 title: "東京みなと祭"
 pubDatetime: 2019-05-18T21:06:00+09:00
 description: "東京、みなと、祭"
-type: "post"
-categories:
-  - "東京"
-  - "みなと"
-  - "祭"
 tags:
   - "travel"
 ---

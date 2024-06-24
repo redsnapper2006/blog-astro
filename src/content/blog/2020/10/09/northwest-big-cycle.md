@@ -2,10 +2,6 @@
 title: "西北大环线"
 pubDatetime: 2020-10-09T09:35:00+08:00
 description: "塔尔寺,青海湖,茶卡盐湖,翡翠湖,水上雅丹,月牙泉,莫高窟,张掖丹霞,额济纳胡杨林"
-type: "post"
-categories:
-  - "西北大环线"
-  - "穷游"
 tags:
   - "travel"
 ---

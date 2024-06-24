@@ -2,13 +2,6 @@
 title: "Sony PlayStation VR in Yodobashi Camera at Akihabara"
 pubDatetime: 2018-10-01T13:59:00+09:00
 description: "Sony PlayStation VR in Yodobashi Camera at Akihabara"
-type: "post"
-categories:
-  - "Sony"
-  - "PlayStation"
-  - "VR"
-  - "Yodobashi"
-  - "Akihabara"
 tags:
   - "travel"
 ---

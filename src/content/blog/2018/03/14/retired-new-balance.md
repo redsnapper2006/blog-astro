@@ -2,11 +2,6 @@
 title: "Retired, New Balance"
 pubDatetime: 2018-03-14T20:52:00+08:00
 description: "Retired, New Balance"
-type: "post"
-categories:
-  - "Retired"
-  - "New Balance"
-  - "NB"
 tags:
   - "misc"
 ---

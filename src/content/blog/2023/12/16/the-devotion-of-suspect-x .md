@@ -2,9 +2,6 @@
 title: "容疑者Xの献身"
 pubDatetime: 2023-12-16T22:05:00+08:00
 description: ""
-type: "post"
-categories:
-  - "reading"
 tags:
   - "reading"
 ---

@@ -2,12 +2,6 @@
 title: "Way To Go! AWS Certified Solutions Architect - Associate"
 pubDatetime: 2019-08-23T11:26:00+08:00
 description: "AWS Certified Solutions Architect - Associate"
-type: "post"
-categories:
-  - "AWS"
-  - "Certified"
-  - "Solutions Architect"
-  - "Associate"
 tags:
   - "certification"
 ---

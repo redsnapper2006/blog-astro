@@ -2,11 +2,6 @@
 title: "1289-minimum-falling-path-sum-ii"
 pubDatetime: 2023-08-10T20:34:00+09:00
 description: ""
-type: "post"
-categories:
-  - "leetcode"
-  - "rust"
-  - "binaryheap"
 tags:
   - "leetcode"
   - "rust"

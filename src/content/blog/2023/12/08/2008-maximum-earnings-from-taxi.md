@@ -2,11 +2,6 @@
 title: "2008-maximum-earnings-from-taxi"
 pubDatetime: 2023-12-08T12:05:00+08:00
 description: ""
-type: "post"
-categories:
-  - "leetcode"
-  - "rust"
-  - "dp"
 tags:
   - "leetcode"
   - "rust"

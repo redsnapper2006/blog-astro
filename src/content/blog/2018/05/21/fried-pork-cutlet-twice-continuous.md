@@ -2,12 +2,6 @@
 title: "とんかつ松乃家連続二食"
 pubDatetime: 2018-05-21T14:01:00+09:00
 description: "とんかつ定食、松乃家、連続二食"
-type: "post"
-categories:
-  - "fried"
-  - "pork"
-  - "cutlet"
-  - "matsunoya"
 tags:
   - "misc"
 ---

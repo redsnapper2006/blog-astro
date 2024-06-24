@@ -15,7 +15,7 @@ tags:
 
 内循环+闭环
 
-```
+```rust
 struct Solution {}
 
 impl Solution {

@@ -15,7 +15,7 @@ tags:
 
 哈希+自定义排序
 
-```
+```rust
 struct Solution {}
 
 use std::collections::HashMap;

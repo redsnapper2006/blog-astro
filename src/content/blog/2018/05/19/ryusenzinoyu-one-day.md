@@ -2,10 +2,6 @@
 title: "竜泉寺の湯（草加店）巡り"
 pubDatetime: 2018-05-19T20:01:00+09:00
 description: "温泉＋岩盤浴"
-type: "post"
-categories:
-  - "ryusenzinoyu"
-  - "SPA"
 tags:
   - "travel"
 ---

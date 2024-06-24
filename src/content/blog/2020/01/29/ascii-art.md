@@ -2,10 +2,6 @@
 title: "ASCII ART"
 pubDatetime: 2020-01-29T21:05:00+08:00
 description: "ASCII ART"
-type: "post"
-categories:
-  - "ascii"
-  - "art"
 tags:
   - "misc"
 ---

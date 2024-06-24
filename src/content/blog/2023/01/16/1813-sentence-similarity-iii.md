@@ -15,7 +15,7 @@ tags:
 
 双指针
 
-```
+```rust
 struct Solution {}
 
 impl Solution {

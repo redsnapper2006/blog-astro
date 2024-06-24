@@ -2,12 +2,6 @@
 title: "37-sudoku-solver"
 pubDatetime: 2024-01-23T17:54:00+09:00
 description: ""
-type: "post"
-categories:
-  - "leetcode"
-  - "rust"
-  - "backtracking"
-  - "recursive"
 tags:
   - "leetcode"
   - "rust"

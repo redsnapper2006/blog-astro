@@ -2,12 +2,6 @@
 title: "1696-jump-game-vi"
 pubDatetime: 2024-02-05T12:29:00+08:00
 description: ""
-type: "post"
-categories:
-  - "leetcode"
-  - "rust"
-  - "dp"
-  - "binaryheap"
 tags:
   - "leetcode"
   - "rust"

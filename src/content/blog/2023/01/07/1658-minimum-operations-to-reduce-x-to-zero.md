@@ -15,7 +15,7 @@ tags:
 
 前缀和 + 哈希表
 
-```
+```rust
 struct Solution {}
 
 use std::collections::HashMap;

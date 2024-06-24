@@ -2,11 +2,6 @@
 title: "2251-number-of-flowers-in-full-bloom"
 pubDatetime: 2023-09-28T14:14:00+08:00
 description: ""
-type: "post"
-categories:
-  - "leetcode"
-  - "rust"
-  - "diffarray"
 tags:
   - "leetcode"
   - "rust"

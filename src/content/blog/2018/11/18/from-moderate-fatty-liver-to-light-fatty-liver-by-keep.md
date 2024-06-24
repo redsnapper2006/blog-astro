@@ -2,11 +2,6 @@
 title: "KEEP,続ける、坚持"
 pubDatetime: 2018-11-18T20:19:00+08:00
 description: "自律给我自由"
-type: "post"
-categories:
-  - "keep"
-  - "続ける"
-  - "坚持"
 tags:
   - "misc"
 ---

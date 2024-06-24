@@ -2,11 +2,6 @@
 title: "446-arithmetic-slices-ii-subsequence"
 pubDatetime: 2024-01-09T13:40:00+08:00
 description: ""
-type: "post"
-categories:
-  - "leetcode"
-  - "rust"
-  - "dp"
 tags:
   - "leetcode"
   - "rust"

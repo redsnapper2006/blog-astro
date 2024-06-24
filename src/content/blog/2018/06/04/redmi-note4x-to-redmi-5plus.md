@@ -2,11 +2,6 @@
 title: "Red Mi Note 4X -> Red Mi 5 Plus"
 pubDatetime: 2018-06-04T14:18:00+08:00
 description: "Red Mi Note 4X to Red Mi 5 Plus"
-type: "post"
-categories:
-  - "RedMi"
-  - "Note4X"
-  - "5Plus"
 tags:
   - "misc"
 ---

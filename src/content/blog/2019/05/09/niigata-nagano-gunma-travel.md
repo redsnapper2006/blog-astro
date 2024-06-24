@@ -2,12 +2,6 @@
 title: "2019年ゴールデンウィークの家族旅（新潟〜長野〜群馬）"
 pubDatetime: 2019-05-09T11:39:00+09:00
 description: "平成、令和、ゴールデンウィーク"
-type: "post"
-categories:
-  - "家族旅"
-  - "新潟"
-  - "長野"
-  - "群馬"
 tags:
   - "travel"
 ---

@@ -2,11 +2,6 @@
 title: "1944-number-of-visible-people-in-a-queue"
 pubDatetime: 2024-01-05T12:16:00+08:00
 description: ""
-type: "post"
-categories:
-  - "leetcode"
-  - "rust"
-  - "monotonic stack"
 tags:
   - "leetcode"
   - "rust"

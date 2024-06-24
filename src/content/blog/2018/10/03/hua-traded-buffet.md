@@ -2,13 +2,6 @@
 title: "華さん、ご馳走様でした。一食満腹しました。"
 pubDatetime: 2018-10-03T11:55:00+09:00
 description: "華さんと半年ぶり再会しました。招待してくれて、ブッフェでいっぱいでした。有難う御座います！"
-type: "post"
-categories:
-  - "APA Hotel"
-  - "Mita"
-  - "Buffet"
-  - "Italian Food"
-  - "Invitation"
 tags:
   - "travel"
 ---

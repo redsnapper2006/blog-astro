@@ -2,10 +2,6 @@
 title: "また軽井沢、またね"
 pubDatetime: 2018-05-02T10:58:00+09:00
 description: "また軽井沢、また今度！"
-type: "post"
-categories:
-  - "Karuizawa"
-  - "Travel"
 tags:
   - "travel"
 ---

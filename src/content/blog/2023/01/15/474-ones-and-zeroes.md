@@ -15,7 +15,7 @@ tags:
 
 DP
 
-```
+```rust
 struct Solution {}
 
 impl Solution {

@@ -2,11 +2,6 @@
 title: "689-maximum-sum-of-3-non-overlapping-subarrays"
 pubDatetime: 2023-11-19T15:39:00+08:00
 description: ""
-type: "post"
-categories:
-  - "leetcode"
-  - "rust"
-  - "dp"
 tags:
   - "leetcode"
   - "rust"
