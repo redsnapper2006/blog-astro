@@ -1,0 +1,18 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import { SITE } from "@config";
+---
+
+<Layout title={`Misc | ${SITE.title}`}>
+  <Header activeNav="misc" />
+  <Breadcrumbs />
+  <main id="main-content">
+    <section id="about" class="prose mb-28 max-w-3xl prose-img:border-0">
+      <slot />
+    </section>
+  </main>
+  <Footer />
+</Layout>
