@@ -110,4 +110,4 @@ Detective.vs.Sleuths
 
 小李子和大表姐很卖力。梅姨完美地诠释了政治家的丑陋。凯特布兰切特 Fashion 犹在。
 
-# [2021](./2021_movielist)
+# [2021](/misc/o/2021_movielist)

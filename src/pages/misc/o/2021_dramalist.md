@@ -22,4 +22,4 @@ layout: "../../../layouts/Misc.astro"
 
 天国与地狱
 
-# [2020](./2020_dramalist)
+# [2020](/misc/o/2020_dramalist)

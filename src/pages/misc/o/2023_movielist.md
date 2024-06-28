@@ -81,4 +81,4 @@ layout: "../../../layouts/Misc.astro"
 
 # 东北告别天团2
 
-# [2022](./2022_movielist)
+# [2022](/misc/o/2022_movielist)
