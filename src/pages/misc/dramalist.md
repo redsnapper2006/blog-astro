@@ -12,7 +12,7 @@ layout: "../../layouts/Misc.astro"
 
 # 3 Body Problem Season 1
 
-三体 第一季
+三体 第一季  
 Netflix版
 
 # サンクチュアリ-聖域
@@ -22,5 +22,7 @@ Netflix版
 Netflix的励志剧。
 
 # 三大队
+
+<br/>
 
 # [2023](/misc/o/2023_dramalist)

@@ -8,6 +8,8 @@ layout: "../../../layouts/Misc.astro"
 
 # 漫长的季节
 
+<br/>
+
 # 忍者に結婚は難しい
 
 忍者结婚难

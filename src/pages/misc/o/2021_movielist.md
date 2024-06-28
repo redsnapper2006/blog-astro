@@ -6,17 +6,17 @@ tags:
 layout: "../../../layouts/Misc.astro"
 ---
 
-## Red.Notice
+# Red.Notice
 
 红色通缉令  
 死侍 vs 神奇女侠 vs Rock
 
-## No.Time.to.Die
+# No.Time.to.Die
 
 007：无暇赴死  
 壮士迟暮，克雷格最后一次出演 007。
 
-## 名探偵コナン 緋色の弾丸
+# 名探偵コナン 緋色の弾丸
 
 名侦探柯南：绯色的子弹  
 每年定时收看。
