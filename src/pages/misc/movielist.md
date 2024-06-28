@@ -47,4 +47,4 @@ layout: "../../layouts/Misc.astro"
 
 # 三大队
 
-# [2023](./o/2023_movielist)
+# [2023](/misc/o/2023_movielist)

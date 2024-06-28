@@ -23,4 +23,4 @@ Netflix的励志剧。
 
 # 三大队
 
-# [2023](./o/2023_dramalist)
+# [2023](/misc/o/2023_dramalist)
