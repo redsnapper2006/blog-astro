@@ -5,7 +5,6 @@ export const SITE: Site = {
   author: "Yan Du",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   title: "Red Snapper/赤鯛/红鲷",
-  ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 10,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
