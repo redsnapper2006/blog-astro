@@ -50,11 +50,12 @@ Detective.vs.Sleuths
 
 # Doctor Strange in the Multiverse of Madness
 
-奇异博士 2：疯狂多元宇宙
+奇异博士2：疯狂多元宇宙
 
 # Morbius
 
-暗夜博士：莫比亚斯漫威宇宙第二支线开始。英雄都有点怂。
+暗夜博士：莫比亚斯  
+漫威宇宙第二支线开始。英雄都有点怂。
 
 # Everything Everywhere All at Once
 
