@@ -7,6 +7,7 @@ export const SITE: Site = {
   title: "Red Snapper/赤鯛/红鲷",
   lightAndDarkMode: true,
   postPerPage: 10,
+  postPerIndex: 10,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 

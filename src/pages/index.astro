@@ -7,6 +7,7 @@ import LinkButton from "@components/LinkButton.astro";
 import Hr from "@components/Hr.astro";
 import Card from "@components/Card";
 import getSortedPosts from "@utils/getSortedPosts";
+import { SITE } from "@config";
 
 const posts = await getCollection("blog");
 
@@ -22,12 +23,13 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     {
       recentPosts.length > 0 && (
         <section id="recent-posts">
+          <h2>Recent Posts</h2>
           <ul>
             {recentPosts.map(
               ({ data, slug }, index) =>
-                index < 10 && (
+                index < SITE.postPerIndex && (
                   <Card
-                    href={`/post/${slug}/`}
+                    href={`/posts/${slug}/`}
                     frontmatter={data}
                     secHeading={false}
                   />
