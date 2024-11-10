@@ -11,6 +11,7 @@ import { SITE } from "@config";
 
 export interface Props {
   post: CollectionEntry<"blog">;
+  posts: CollectionEntry<"blog">[];
 }
 
 const { post } = Astro.props;
@@ -24,6 +25,7 @@ const {
   pubDatetime,
   modDatetime,
   tags,
+  editPost,
 } = post.data;
 
 const { Content } = await post.render();
@@ -44,6 +46,7 @@ const layoutProps = {
   ogImage: ogUrl,
   scrollSmooth: true,
 };
+
 ---
 
 <Layout {...layoutProps}>
@@ -68,6 +71,8 @@ const layoutProps = {
       modDatetime={modDatetime}
       size="lg"
       className="my-2"
+      editPost={editPost}
+      postId={post.id}
     />
     <article id="article" class="prose mx-auto mt-8 max-w-3xl">
       <Content />
@@ -94,6 +99,8 @@ const layoutProps = {
 
       <ShareLinks />
     </div>
+
+    <hr class="my-6 border-dashed" />
   </main>
   <Footer />
 </Layout>
@@ -107,7 +114,7 @@ const layoutProps = {
   }
 </style>
 
-<script is:inline>
+<script is:inline data-astro-rerun>
   /** Create a progress indicator
    *  at the top */
   function createProgressBar() {
@@ -132,6 +139,7 @@ const layoutProps = {
   /** Update the progress bar
    *  when user scrolls */
   function updateScrollProgress() {
+    document.addEventListener("scroll", () => {
     const winScroll =
       document.body.scrollTop || document.documentElement.scrollTop;
     const height =
@@ -144,8 +152,9 @@ const layoutProps = {
         myBar.style.width = scrolled + "%";
       }
     }
+    });
   }
-  document.addEventListener("scroll", updateScrollProgress);
+  updateScrollProgress();
 
   /** Attaches links to headings in the document,
    *  allowing sharing of sections easily */
@@ -220,4 +229,9 @@ const layoutProps = {
     });
   }
   backToTop();
+
+  /* Go to page start after page swap */
+  document.addEventListener("astro:after-swap", () =>
+    window.scrollTo({ left: 0, top: 0, behavior: "instant" })
+  );
 </script>
