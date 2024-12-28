@@ -6,6 +6,11 @@ tags:
 layout: "../../layouts/Misc.astro"
 ---
 
+# The Day of the Jackal Season 1
+
+豺狼的日子 第一季  
+翻拍的新剧，逻辑有点假，小雀斑不像特种兵狙击手
+
 # 雪迷宫
 
 最近唯一追完的电视剧，主要因为双主角，黄景瑜和章宇。  
