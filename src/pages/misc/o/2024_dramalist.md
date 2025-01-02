@@ -3,7 +3,7 @@ title: "2024 drama list"
 description: "2024 drama list"
 tags:
   - "drama"
-layout: "../../layouts/Misc.astro"
+layout: "../../../layouts/Misc.astro"
 ---
 
 # The Day of the Jackal Season 1

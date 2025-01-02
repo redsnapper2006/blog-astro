@@ -3,7 +3,7 @@ title: "2024 movie list"
 description: "2024 movie list"
 tags:
   - "movie"
-layout: "../../layouts/Misc.astro"
+layout: "../../../layouts/Misc.astro"
 ---
 
 # 全员嫌疑人
