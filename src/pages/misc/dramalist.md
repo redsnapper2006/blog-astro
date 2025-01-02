@@ -1,37 +1,17 @@
 ---
-title: "2024 drama list"
-description: "2024 drama list"
+title: "2025 drama list"
+description: "2025 drama list"
 tags:
   - "drama"
 layout: "../../layouts/Misc.astro"
 ---
 
-# The Day of the Jackal Season 1
+# 오징어 게임 시즌 2
 
-豺狼的日子 第一季  
-翻拍的新剧，逻辑有点假，小雀斑不像特种兵狙击手
-
-# 雪迷宫
-
-最近唯一追完的电视剧，主要因为双主角，黄景瑜和章宇。  
-另外，感觉黄景瑜已经把所有的军装角色演了个遍。
-
-# 追风者
-
-反派智商在线，配角远超预期，风头盖过主角
-
-# 3 Body Problem Season 1
-
-三体 第一季  
-Netflix版
-
-# サンクチュアリ-聖域
-
-相扑避难所  
-Netflix的励志剧。
-
-# 三大队
+鱿鱼游戏 第二季  
+留个大尾巴，以为还要等一年。这不像奈飞的风格呀  
+原来第二季第三季同时拍完，饥饿放映。  
 
 <br/>
 
-# [2023](/misc/o/2023_dramalist)
+# [2024](/misc/o/2024_dramalist)
