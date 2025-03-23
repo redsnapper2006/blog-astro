@@ -10,20 +10,20 @@ layout: "../../layouts/Misc.astro"
 
 # software
 
-[software](./software)
+[software](/misc/software)
 
 # unshredded
 
-[unshredded python](./unshredded)
+[unshredded python](/misc/unshredded)
 
 # movie
 
-[movie list](./movielist)
+[movie list](/misc/movielist)
 
 # drama
 
-[drama list](./dramalist)
+[drama list](/misc/dramalist)
 
 # book
 
-[book list](./booklist)
+[book list](/misc/booklist)
