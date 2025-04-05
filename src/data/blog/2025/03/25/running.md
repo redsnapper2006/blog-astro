@@ -14,3 +14,5 @@ tags:
 00:39:42
 
 北京中医药大学体育场
+
+Mizuno Wave Rider 28 首秀

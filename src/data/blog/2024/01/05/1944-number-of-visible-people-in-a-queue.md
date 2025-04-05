@@ -8,7 +8,7 @@ tags:
   - "monotonic stack"
 ---
 
-1944 https://leetcode.cn/problems/number-of-visible-people-in-a-queue/
+1944 <https://leetcode.cn/problems/number-of-visible-people-in-a-queue/>
 
 > 单调栈
 

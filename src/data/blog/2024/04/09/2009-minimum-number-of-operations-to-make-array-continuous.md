@@ -9,7 +9,7 @@ tags:
   - "sort"
 ---
 
-2009 https://leetcode.cn/problems/minimum-number-of-operations-to-make-array-continuous/
+2009 <https://leetcode.cn/problems/minimum-number-of-operations-to-make-array-continuous/>
 
 > sort + binary_search
 

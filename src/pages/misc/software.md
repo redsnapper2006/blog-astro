@@ -16,9 +16,9 @@ layout: "../../layouts/Misc.astro"
 - arch design drawing: graphviz & drawio
 - HA LB: HAProxy
 - object, block, file storage: <img src="https://docs.ceph.com/en/quincy/_static/logo.png" width="140">
-- hugo dateformat memo (https://gohugohq.com/howto/hugo-dateformat/)
-- Reactive App on JVM (https://vertx.io/)
-- Fish Shell (https://fishshell.com/)
-- tmux (https://github.com/tmux/tmux)
-- kitty (https://sw.kovidgoyal.net/kitty/)
-- mpv (https://mpv.io/)
+- hugo dateformat memo (<https://gohugohq.com/howto/hugo-dateformat/>)
+- Reactive App on JVM (<https://vertx.io/>)
+- Fish Shell (<https://fishshell.com/>)
+- tmux (<https://github.com/tmux/tmux>)
+- kitty (<https://sw.kovidgoyal.net/kitty/>)
+- mpv (<https://mpv.io/>)

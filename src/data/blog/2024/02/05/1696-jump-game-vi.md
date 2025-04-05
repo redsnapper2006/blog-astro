@@ -9,7 +9,7 @@ tags:
   - "binaryheap"
 ---
 
-1696 https://leetcode.cn/problems/jump-game-vi/
+1696 <https://leetcode.cn/problems/jump-game-vi/>
 
 > dp + max_heap
 
