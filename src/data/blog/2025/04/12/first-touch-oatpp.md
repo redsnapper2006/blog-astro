@@ -1,9 +1,8 @@
 ---
 title: '初尝oatpp'
-date: '2025-04-12T12:00:00+08:00'
-description: ''
+pubDatetime: '2025-04-12T12:00:00+08:00'
+description: '初尝oatpp'
 type: 'post'
-layout: 'post'
 categories:
   - 'c++'
   - 'web framework'
