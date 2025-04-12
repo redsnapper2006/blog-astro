@@ -1,16 +1,16 @@
 ---
-title: '初尝oatpp'
-pubDatetime: '2025-04-12T12:00:00+08:00'
-description: '初尝oatpp'
-type: 'post'
+title: "初尝oatpp"
+pubDatetime: 2025-04-12T12:00:00+08:00
+description: "初尝oatpp"
+type: "post"
 categories:
-  - 'c++'
-  - 'web framework'
-  - 'oatpp'
+  - "c++"
+  - "web framework"
+  - "oatpp"
 tags:
-  - 'c++'
-  - 'web framework'
-  - 'oatpp'
+  - "c++"
+  - "web framework"
+  - "oatpp"
 ---
 
 C++的一个web framework。
