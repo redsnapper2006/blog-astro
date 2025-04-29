@@ -16,7 +16,7 @@ export const SITE = {
     text: "Suggest Changes",
     url: "https://github.com/satnaing/astro-paper/edit/main/",
   },
-  dynamicOgImage: true,
+  dynamicOgImage: false,
   lang: "en", // html lang code. Set this empty and default will be "en"
   timezone: "Asia/ShangHai", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 } as const;
