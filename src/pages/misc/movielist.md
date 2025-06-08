@@ -6,6 +6,12 @@ tags:
 layout: "../../layouts/Misc.astro"
 ---
 
+# The Accountant 2
+
+会计刺客2  
+
+狗尾续貂的作品
+
 # 新幹線大爆破
 
 新干线惊爆倒数  
