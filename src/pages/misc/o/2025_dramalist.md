@@ -3,7 +3,7 @@ title: "2025 drama list"
 description: "2025 drama list"
 tags:
   - "drama"
-layout: "../../layouts/Misc.astro"
+layout: "../../../layouts/Misc.astro"
 ---
 
 # イクサガミ

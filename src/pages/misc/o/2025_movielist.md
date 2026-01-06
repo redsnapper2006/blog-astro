@@ -3,7 +3,7 @@ title: "2025 movie list"
 description: "2025 movie list"
 tags:
   - "movie"
-layout: "../../layouts/Misc.astro"
+layout: "../../../layouts/Misc.astro"
 ---
 
 # Zootopia 2
