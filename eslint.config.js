@@ -14,5 +14,5 @@ export default [
     },
   },
   { rules: { "no-console": "error" } },
-  { ignores: ["dist/**", ".husky", ".vscode", ".astro", "public/pagefind/**"] },
+  { ignores: ["dist/**", ".astro", "public/pagefind/**"] },
 ];

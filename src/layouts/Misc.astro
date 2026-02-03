@@ -9,8 +9,8 @@ import { SITE } from "@/config";
 <Layout title={`Misc | ${SITE.title}`}>
   <Header />
   <Breadcrumb />
-  <main id="main-content">
-    <section id="misc" class="prose mb-28 max-w-3xl prose-img:border-0">
+  <main id="main-content" class="app-layout pb-4">
+    <section id="misc" class:list={["pt-8 pb-6", "border-b border-border"]}>
       <slot />
     </section>
   </main>

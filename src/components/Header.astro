@@ -1,5 +1,4 @@
 ---
-import Hr from "./Hr.astro";
 import IconX from "@/assets/icons/IconX.svg";
 import IconMoon from "@/assets/icons/IconMoon.svg";
 import IconSearch from "@/assets/icons/IconSearch.svg";
@@ -23,21 +22,25 @@ const isActive = (path: string) => {
 };
 ---
 
-<header>
-  <a
+<a
     id="skip-to-content"
     href="#main-content"
     class="absolute start-16 -top-full z-50 bg-background px-3 py-2 text-accent backdrop-blur-lg transition-all focus:top-4"
-  >
+>
     Skip to content
-  </a>
-  <div
-    id="nav-container"
-    class="mx-auto flex max-w-app flex-col items-center justify-between sm:flex-row"
-  >
+</a>
+
+<header
+  class="app-layout flex flex-col items-center justify-between sm:flex-row"
+>
     <div
       id="top-nav-wrap"
-      class="relative flex w-full items-baseline justify-between bg-background p-4 sm:items-center sm:py-6"
+    class:list={[
+      "py-4 sm:py-6",
+      "border-b border-border",
+      "relative w-full bg-background",
+      "flex items-baseline justify-between sm:items-center",
+    ]}
     >
       <a
         href="/"
@@ -99,8 +102,8 @@ const isActive = (path: string) => {
                       "active-nav [&>svg]:stroke-accent": isActive("/archives"),
                     },
                   ]}
-                  ariaLabel="archives"
                   title="Archives"
+                aria-label="archives"
                 >
                   <IconArchive class="hidden sm:inline-block" />
                   <span class="sm:sr-only">Archives</span>
@@ -115,8 +118,8 @@ const isActive = (path: string) => {
                 "focus-outline flex p-3 sm:p-1",
                 { "[&>svg]:stroke-accent": isActive("/search") },
               ]}
-              ariaLabel="search"
               title="Search"
+            aria-label="search"
             >
               <IconSearch />
               <span class="sr-only">Search</span>
@@ -141,8 +144,6 @@ const isActive = (path: string) => {
         </ul>
       </nav>
     </div>
-  </div>
-  <Hr />
 </header>
 
 <script>
