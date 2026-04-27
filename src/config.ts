@@ -4,7 +4,6 @@ export const SITE = {
   profile: "https://github.com/redsnapper2006",
   desc: "",
   title: "Red Snapper",
-  ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 10,
   postPerPage: 10,
@@ -16,7 +15,6 @@ export const SITE = {
     text: "Suggest Changes",
     url: "https://github.com/satnaing/astro-paper/edit/main/",
   },
-  dynamicOgImage: false,
   dir: "ltr", // "rtl" | "auto"
   lang: "en", // html lang code. Set this empty and default will be "en"
   timezone: "Asia/ShangHai", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
