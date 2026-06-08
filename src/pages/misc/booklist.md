@@ -8,6 +8,7 @@ layout: "../../layouts/Misc.astro"
 
 # List
 
+- [X] 置身钉内, 2026-06-08, Intensive Read
 - [x] 容疑者Xの献身, 2023-12-17, Japanese Version
 - [x] Modern Web Development with Go, 2023-03-08, Quick Read Through
 - [x] Podman_in_Action_The_next_generation, 2022-09-22, Quick Read Through
