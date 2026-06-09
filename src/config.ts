@@ -1,21 +1,34 @@
-export const SITE = {
-  website: "https://redsnapper2006.pages.dev/", // replace this with your deployed domain
-  author: "Yan Du",
-  profile: "https://github.com/redsnapper2006",
-  desc: "",
-  title: "Red Snapper",
-  lightAndDarkMode: true,
-  postPerIndex: 10,
-  postPerPage: 10,
-  scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
-  showArchives: false,
-  showBackButton: true, // show back button in post detail
-  editPost: {
-    enabled: false,
-    text: "Suggest Changes",
-    url: "https://github.com/satnaing/astro-paper/edit/main/",
+/**
+ * Internal resolved configuration used throughout the codebase.
+ *
+ * Prefer editing `astro-paper.config.ts` instead of this file. This module exists to
+ * apply defaults and expose a fully-resolved config shape (`ResolvedAstroPaperConfig`).
+ */
+import userConfig from "@/astro-paper.config";
+import type { ResolvedAstroPaperConfig } from "./types/config";
+
+
+const config: ResolvedAstroPaperConfig = {
+  site: {
+    ...userConfig.site,
+    lang: userConfig.site.lang ?? "en",
+    timezone: userConfig.site.timezone ?? "UTC",
+    dir: userConfig.site.dir ?? "ltr",
   },
-  dir: "ltr", // "rtl" | "auto"
-  lang: "en", // html lang code. Set this empty and default will be "en"
-  timezone: "Asia/ShangHai", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-} as const;
+  posts: {
+    perPage: userConfig.posts?.perPage ?? 4,
+    perIndex: userConfig.posts?.perIndex ?? 4,
+    scheduledPostMargin:
+      userConfig.posts?.scheduledPostMargin ?? 15 * 60 * 1000,
+  },
+  features: {
+    lightAndDarkMode: userConfig.features?.lightAndDarkMode ?? true,
+    showArchives: userConfig.features?.showArchives ?? true,
+    showBackButton: userConfig.features?.showBackButton ?? true,
+    search: userConfig.features?.search ?? "pagefind",
+  },
+  socials: userConfig.socials ?? [],
+  shareLinks: userConfig.shareLinks ?? [],
+};
+
+export default config;
