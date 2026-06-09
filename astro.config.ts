@@ -1,7 +1,6 @@
 import {
   defineConfig,
   envField,
-  fontProviders,
 } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 import mdx from "@astrojs/mdx";
@@ -55,7 +54,7 @@ export default defineConfig({
     },
   },
   vite: {
-    plugins: [tailwindcss()],
+    plugins: [tailwindcss() as any],
   },
   fonts: [],
   env: {
