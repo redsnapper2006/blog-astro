@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/AboutLayout.astro
+layout: ../../layouts/AboutLayout.astro
 title: "Red Snapper/赤鯛/红鲷"
 ---
 

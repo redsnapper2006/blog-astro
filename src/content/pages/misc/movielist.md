@@ -3,7 +3,7 @@ title: "2026 movie list"
 description: "2026 movie list"
 tags:
   - "movie"
-layout: "../../layouts/Misc.astro"
+layout: "../../../layouts/Misc.astro"
 ---
 
 # 惊蛰无声

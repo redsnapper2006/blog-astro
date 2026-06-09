@@ -1,7 +1,7 @@
 ---
 title: "misc"
 description: "misc"
-layout: "../../layouts/Misc.astro"
+layout: "../../../layouts/Misc.astro"
 ---
 
 # leetcode
