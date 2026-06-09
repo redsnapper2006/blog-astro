@@ -3,8 +3,8 @@ export interface UIStrings {
     home: string;
     posts: string;
     tags: string;
+    misc: string;
     about: string;
-    archives: string;
     search: string;
   };
   post: {
@@ -16,7 +16,6 @@ export interface UIStrings {
     tagLabel: string;
     backToTop: string;
     goBack: string;
-    editPage: string;
     previousPost: string;
     nextPost: string;
   };
