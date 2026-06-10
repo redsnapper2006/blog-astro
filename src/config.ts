@@ -23,7 +23,6 @@ const config: ResolvedAstroPaperConfig = {
   },
   features: {
     lightAndDarkMode: userConfig.features?.lightAndDarkMode ?? true,
-    showArchives: userConfig.features?.showArchives ?? true,
     showBackButton: userConfig.features?.showBackButton ?? true,
     search: userConfig.features?.search ?? "pagefind",
   },

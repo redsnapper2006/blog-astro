@@ -17,7 +17,6 @@ export default defineAstroPaperConfig({
   },
   features: {
     lightAndDarkMode: true,
-    showArchives: false,
     showBackButton: true,
     search: "pagefind",
   },

@@ -1,12 +1,12 @@
 import { getRelativeLocaleUrl } from "astro:i18n";
-import { BLOG_PATH } from "@/content.config";
+import { PAGE_PATH } from "@/content.config";
 import { slugifyStr } from "./slugify";
 import config from "@/config";
 
-function getPostPathSegments(filePath: string | undefined): string[] {
+function getPagePathSegments(filePath: string | undefined): string[] {
   return (
     filePath
-      ?.replace(BLOG_PATH, "")
+      ?.replace(PAGE_PATH, "")
       .split("/")
       .filter(path => path !== "")
       .filter(path => !path.startsWith("_"))
@@ -16,14 +16,14 @@ function getPostPathSegments(filePath: string | undefined): string[] {
 }
 
 function getIdSlug(id: string): string {
-  const postId = id.split("/");
-  return postId.length > 0 ? String(postId[postId.length - 1]) : id;
+  const pageId = id.split("/");
+  return pageId.length > 0 ? String(pageId[pageId.length - 1]) : id;
 }
 
-function getPostSlugPath(id: string, filePath: string | undefined): string {
-  const pathSegments = getPostPathSegments(filePath);
-  console.log("here", id, pathSegments);
+function getPageSlugPath(id: string, filePath: string | undefined): string {
+  const pathSegments = getPagePathSegments(filePath);
   const slug = getIdSlug(id);
+  console.log("here", id, pathSegments, slug);
   return pathSegments.length > 0
     ? [...pathSegments, slug].join("/")
     : String(slug);
@@ -34,8 +34,8 @@ function getPostSlugPath(id: string, filePath: string | undefined): string {
  * No base prefix, no locale — Astro handles those at a higher level.
  * e.g. `/examples/my-post`
  */
-export function getPostSlug(id: string, filePath: string | undefined): string {
-  return `/${getPostSlugPath(id, filePath)}`;
+export function getPageSlug(id: string, filePath: string | undefined): string {
+  return `/${getPageSlugPath(id, filePath)}/`;
 }
 
 /**
@@ -44,10 +44,10 @@ export function getPostSlug(id: string, filePath: string | undefined): string {
  * `getRelativeLocaleUrl`.
  * e.g. `/posts/my-post` or `/en/posts/my-post`
  */
-export function getPostUrl(
+export function getPageUrl(
   id: string,
   filePath: string | undefined,
   locale: string | undefined = config.site.lang
 ): string {
-  return getRelativeLocaleUrl(locale, `posts/${getPostSlugPath(id, filePath)}`);
+  return getRelativeLocaleUrl(locale, `/${getPageSlugPath(id, filePath)}/`);
 }

@@ -30,9 +30,6 @@ const structuredData = {
 
 <Layout {title} {description} {canonicalURL}>
   <Fragment slot="head">
-    <!-- Override og:type for article pages -->
-    <meta property="og:type" content="article" />
-
     {
       pubDatetime && (
         <meta
