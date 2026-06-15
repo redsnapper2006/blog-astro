@@ -1,5 +1,4 @@
 ---
-// import type { GetStaticPaths } from "astro";
 import { getCollection, render } from "astro:content";
 import { getPageSlug } from "@/utils/getPagePaths";
 import Layout from "@/layouts/Layout.astro";
@@ -10,9 +9,9 @@ import Footer from "@/components/Footer.astro";
 import config from "@/config";
 
 export async function getStaticPaths() {
-  const pages = await getCollection("pages");
-  return pages.map((page, index) => ({
-    params: { slug: getPageSlug(page.id, page.filePath) },
+  const miscs = await getCollection("miscs");
+  return miscs.map((page, index) => ({
+    params: { misc: page.id },
     props: {
       page,
     },

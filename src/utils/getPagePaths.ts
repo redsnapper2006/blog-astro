@@ -1,12 +1,12 @@
 import { getRelativeLocaleUrl } from "astro:i18n";
-import { PAGE_PATH } from "@/content.config";
+import { MISC_PATH } from "@/content.config";
 import { slugifyStr } from "./slugify";
 import config from "@/config";
 
 function getPagePathSegments(filePath: string | undefined): string[] {
   return (
     filePath
-      ?.replace(PAGE_PATH, "")
+      ?.replace(MISC_PATH, "")
       .split("/")
       .filter(path => path !== "")
       .filter(path => !path.startsWith("_"))
@@ -23,7 +23,6 @@ function getIdSlug(id: string): string {
 function getPageSlugPath(id: string, filePath: string | undefined): string {
   const pathSegments = getPagePathSegments(filePath);
   const slug = getIdSlug(id);
-  console.log("here", id, pathSegments, slug);
   return pathSegments.length > 0
     ? [...pathSegments, slug].join("/")
     : String(slug);

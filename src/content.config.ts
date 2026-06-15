@@ -4,7 +4,7 @@ import { glob } from "astro/loaders";
 import config from "@/config";
 
 export const BLOG_PATH = "src/content/blogs";
-export const PAGE_PATH = "src/content/pages";
+export const MISC_PATH = "src/content/pages";
 
 const posts = defineCollection({
   loader: glob({ pattern: "**/[^_]*.{md,mdx}", base: `./${BLOG_PATH}` }),
@@ -20,8 +20,8 @@ const posts = defineCollection({
     }),
 });
 
-const pages = defineCollection({
-  loader: glob({ pattern: "**/[^_]*.{md,mdx}", base: `./${PAGE_PATH}` }),
+const miscs = defineCollection({
+  loader: glob({ pattern: "**/[^_]*.{md,mdx}", base: `./${MISC_PATH}` }),
   schema: () =>
     z.object({
       title: z.string(),
@@ -30,4 +30,4 @@ const pages = defineCollection({
     }),
 });
 
-export const collections = { posts, pages };
+export const collections = { posts, miscs };
