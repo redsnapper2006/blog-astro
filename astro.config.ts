@@ -39,7 +39,7 @@ export default defineConfig({
       rehypePlugins: [rehypeCallouts],
     }),
     shikiConfig: {
-      themes: { light: "dracula", dark: "catppuccin-latte" },
+      themes: { light: "catppuccin-latte", dark: "dracula" },
       defaultColor: false,
       wrap: false,
       transformers: [
